@@ -6,7 +6,7 @@ export default function Final({ setComplete }: any) {
     return (
         <View style={styles.container}>
             <Text style={styles.txt}>Quiz completed sucessfully!!</Text>
-            <TouchableOpacity onPress={() => setComplete(0)} style={styles.btn}>
+            <TouchableOpacity onPress={() => setComplete(false)} style={styles.btn}>
                 <Text style={styles.btxt}>Attempt again</Text>
             </TouchableOpacity>
         </View>

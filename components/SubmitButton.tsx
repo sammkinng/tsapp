@@ -7,14 +7,14 @@ export interface sub {
     setSubmit: (val: boolean) => void,
     selected: string,
     correct: boolean,
-    // navigate: (a: string) => void,
+    setFinish: (a: boolean) => void,
     index: number,
     setPage: (a: number) => void,
     setSel: (a: string) => void,
     setVis: (a: string) => void,
 }
 
-export default function SubmitButton({ submit, setSubmit, selected, correct, index, setPage, setSel, setVis }: sub) {
+export default function SubmitButton({ submit, setSubmit, selected, correct, index, setPage, setSel, setVis, setFinish }: sub) {
     const color = () => {
         if (submit) {
             if (correct) {
@@ -36,8 +36,7 @@ export default function SubmitButton({ submit, setSubmit, selected, correct, ind
                 setSubmit(false)
             }
             else {
-                // navigate('Final')
-                setPage(5)
+                setFinish(true)
                 setSel('')
                 setVis('')
                 setSubmit(false)

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605567887986",
+    "project_id": "tsapp-5560e",
+    "storage_bucket": "tsapp-5560e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605567887986:android:d14342ab28f4742215b0eb",
+        "android_client_info": {
+          "package_name": "com.tsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605567887986-1ht2ujle9meoif73da5v0o2vr3g16ooo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaXyGh9HfFQcajVcvX0ZtnPFRtxTuh1Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605567887986-1ht2ujle9meoif73da5v0o2vr3g16ooo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
